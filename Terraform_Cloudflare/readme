@@ -4,7 +4,7 @@ API :
 Request:
 Method: POST
 Content-Type: application/json
-URL (Secured with Token): https://<your-app>.workers.dev/?key=<post-key>
+URL (Secured with Token): https://<your-app>.workers.dev/
 URL (Not Secured): https://<your-app>.workers.dev/
 BODY: Json Data (Not Parsed)
 Response:
@@ -38,7 +38,7 @@ Response:
 3. Delete a Data:
 Request:
 Method: DELETE
-URL (Secured with Token): https://<your-app>.workers.dev/<_id>?key=<delete-key>
+URL (Secured with Token): https://<your-app>.workers.dev/<_id>
 URL (Not Secured): https://<your-app>.workers.dev/<_id>
 Response:
 {
