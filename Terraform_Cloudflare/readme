@@ -45,19 +45,3 @@ Response:
     "status": true,
     "msg": "Deleted Successfully"
 }
-Deploy :
-Open Cloudflare Worker Page
-Click on KV
-In Namespace Name section Type a Name & Click on Add, a namespace will created.
-Now click on Workers & Create a worker
-Copy the code of worker.js , paste into Worker & Click on Save & Deploy
-Now go back to worker main page, here you will see that your created worker listed there, click on that.
-Click on Settings
-In KV Namespace Bindings section click on Add Binding
-Write TUHIN in Variable name & select your recently created Namespace for KV namespace.
-You just made your Cloudflare DB, Now Read the API Endpoint and use it in your Project 😪
-Secure with Token :
-You can impliment token based authentication system for POST and DELETE requests
-
-Write your key in POSTKEY to secure POST requests with a Token (Line No: 12)
-Write your key in DELETEKEY to secure DELETE requests with a Token (Line No: 13)
